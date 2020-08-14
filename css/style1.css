@@ -26,12 +26,12 @@ body{
 }
 .menubar ul li a{
 	text-decoration: none;
-	color: red;
+	color:	black;
 	
 }
 .active, .menubar ul li:hover
 {
-	background:blue;
+	background:white;
 	border-radius: 3px;
 }
 
@@ -44,7 +44,7 @@ body{
 .menubar ul li:hover .sub-menu1{
 	display:block;
 	position:absolute;
-	background:skyblue;
+	background: white	;
 	margin-top: 20px;
 	margin-left: -20px;
 	
@@ -56,13 +56,13 @@ body{
 .menubar ul li:hover .sub-menu1 li{
 	width: 150px;
 	padding: 10px;
-	border-bottom: 1px dotted #fff;
+	border-bottom: 1px dotted #F08080;
 	
 	border-radius: 0;
 	text-align: left;
 }
 .menubar ul li:hover .sub-menu1 ul li:hover{
-	color: #b2ff00;
+	color:	#F08080;
 	
 } 
 .sub-menu2{
@@ -71,7 +71,7 @@ body{
 .menubar ul li:hover .sub-menu1 ul li:hover .sub-menu2{
 	display:block;
 	position:absolute;
-	background:skyblue;
+	background:	#FF7F50;
 	margin-top: -50px;
 	margin-left: 120px;
 	
